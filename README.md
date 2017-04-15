@@ -24,7 +24,7 @@ Self-Driving Car Engineer Nanodegree Program
       - eg. `./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt  ../data/output1.txt`
 
 
-## Go trhough project rubic 
+## Go trhough project rubric 
 
 ### compile without errors 
 
