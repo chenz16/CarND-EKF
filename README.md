@@ -59,7 +59,7 @@ which is within the criteria:
 [0.20, 0.20, .50, .85].
 
 
-## Follows the Correct Algorithm
+### Follows the Correct Algorithm
 
 Your Sensor Fusion algorithm follows the general processing flow as taught in the preceding lessons.
 
@@ -69,6 +69,6 @@ Your Kalman Filter algorithm first predicts then updates.
 
 Your Kalman Filter can handle radar and lidar measurements.
 
-## Code Efficiency
+### Code Efficiency
 
 Your algorithm should avoid unnecessary calculations.
