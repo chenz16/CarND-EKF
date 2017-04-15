@@ -68,7 +68,7 @@ Your Kalman Filter can handle radar and lidar measurements.`
 
 The algorithm treats the first measurement as initlization of the states (x). Normal steps of kalman filter calcuation are applied from the second measurement.  
 
-The algorithm predicted through calling the prediction function in the instance of `ekf_` defined from the class   `KalmanFilter`;  the algorithm then updated the states and convariance matrix through calling the update functions in the instance of ekf_ defined from the class KalmanFilter. The update functions are different for laser and radar data. When laser data was dected, the update function is a standard update function of Kalman filter; when radar data was dected, the update function used extended kalman filter method. In the extended kalman filter, the prediction of current measurement is calcated through with non-linear measurement functions h(x); the Jacobian matrix was obtained from h(x) and used for calculating the kalman gain K.    
+The algorithm predicted through calling the prediction function in the instance of `ekf_` defined from the class   `KalmanFilter`;  the algorithm then updated the states and covariance matrix through calling the update functions in the instance of `ekf_` defined from the class `KalmanFilter`. The update functions are different for laser and radar data. When laser data was dected, the update function is a standard update function of Kalman filter; when radar data was dected, the update function used extended kalman filter method. In the extended kalman filter, the prediction of current measurement is calcated through non-linear measurement functions h(x); the Jacobian matrix was obtained from h(x) and used for calculating the kalman gain K.    
 
      
     ekf_.Predict();
