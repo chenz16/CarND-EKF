@@ -100,6 +100,7 @@ The algorithm predicted through calling the prediction function in the instance 
 ### Code Efficiency
 
 `Your algorithm should avoid unnecessary calculations.`
+
 The code follows the general approach of the sample code from the course material. 
 
 
